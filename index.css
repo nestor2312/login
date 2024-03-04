@@ -614,7 +614,10 @@
     justify-content: center;
     align-items: center;
 }
-
+h1{
+  color: #0099ff;
+  font-family: 'Days One', sans-serif;
+}
 .caja {
    display: flex;
     flex-direction: column;
