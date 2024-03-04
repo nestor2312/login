@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+
+
 .fondo-card {
     background: #2158d9 !important;
 }
@@ -615,7 +618,7 @@
     align-items: center;
 }
 h1{
-  color: #0099ff;
+  color: #000000;
   font-family: 'Days One', sans-serif;
 }
 .caja {
@@ -648,7 +651,7 @@ input{
   border-radius: 60px;
   border: 2px solid #00a354;
   margin: 10px 40px;
-  font-family: days one;
+  font-family: 'Days One', sans-serif;
   font-size: 16px;
   color: #152039;
   /* background: linear-gradient(180deg, rgba(0, 191, 99, 0.80) 0%, rgba(9, 83, 126, 0.80) 100%);
