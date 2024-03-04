@@ -624,7 +624,7 @@
   height: 380px;
   background-color: rgb(255, 255, 255, 0.76);
   border-radius: 20px;
-  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.86);
+  box-shadow: 0px 4px 15px #ffffffdb;
 }
 .formulario {
   display: flex;
@@ -639,17 +639,26 @@ p{
   color: #00a354;
 }
 input{
+  background:#ffffff4d;
+  opacity:  80%;
   padding: 7px;
   border-radius: 60px;
   border: 2px solid #00a354;
   margin: 10px 40px;
-  opacity: 60%;
   font-family: days one;
   font-size: 16px;
-  color: #00a354;
+  color: #152039;
+  /* background: linear-gradient(180deg, rgba(0, 191, 99, 0.80) 0%, rgba(9, 83, 126, 0.80) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+  
 }
 input::placeholder{
-  color: #000000;
+   background: linear-gradient(180deg, rgba(0, 191, 99, 0.80) 0%, rgba(9, 83, 126, 0.80) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 button{
   display: flex;
