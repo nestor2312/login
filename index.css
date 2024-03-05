@@ -597,6 +597,12 @@
     width: 80px;
   }
     
+
+
+
+
+  
+  
   }
 
 
@@ -684,4 +690,21 @@ button{
 button:hover{
   background: #00BF63;
   box-shadow: 0px 4px 15px #25ff95;
+}
+
+@media (max-width: 320px) {
+  .caja{
+    width: 90%;
+  }
+  input {
+    width: 50%;
+    font-size: 13px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  button{
+    width: 160px;
+    font-size: 15px;
+  }
 }
